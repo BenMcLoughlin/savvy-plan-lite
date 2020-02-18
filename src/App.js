@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Layout from "layout/Layout"
+import {BrowserRouter} from "react-router-dom"
+import { GlobalStyles } from "./style/Themes"
+import {connect} from "react-redux"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+ function App() {
+     return (
+        <>
+          <GlobalStyles />
+          <BrowserRouter>
+              <Layout />
+         </BrowserRouter>   
+        </>
+    )
 }
 
-export default App;
+
+export default connect(null, )(App)
+
+
+//
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_FILE DETAILS-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+// Here the Global style are inserted and passed to all children in the app. Browser Router is 
+//also initiated to enable routing between pages. 
