@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/savvy-plan-lite/static/js/main.3aee0035.chunk.js",
+    "main.js.map": "/savvy-plan-lite/static/js/main.3aee0035.chunk.js.map",
+    "runtime-main.js": "/savvy-plan-lite/static/js/runtime-main.8b3ecac4.js",
+    "runtime-main.js.map": "/savvy-plan-lite/static/js/runtime-main.8b3ecac4.js.map",
+    "static/js/2.41d1d505.chunk.js": "/savvy-plan-lite/static/js/2.41d1d505.chunk.js",
+    "static/js/2.41d1d505.chunk.js.map": "/savvy-plan-lite/static/js/2.41d1d505.chunk.js.map",
+    "index.html": "/savvy-plan-lite/index.html",
+    "precache-manifest.464bce3bc43e08f3e5e1e2ff99648546.js": "/savvy-plan-lite/precache-manifest.464bce3bc43e08f3e5e1e2ff99648546.js",
+    "service-worker.js": "/savvy-plan-lite/service-worker.js",
+    "static/js/2.41d1d505.chunk.js.LICENSE.txt": "/savvy-plan-lite/static/js/2.41d1d505.chunk.js.LICENSE.txt",
+    "static/media/SavvyPlan_logo_final_grey.svg": "/savvy-plan-lite/static/media/SavvyPlan_logo_final_grey.5e012e8c.svg",
+    "static/media/SavvyPlan_logo_final_white_justlogo.svg": "/savvy-plan-lite/static/media/SavvyPlan_logo_final_white_justlogo.decc070f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b3ecac4.js",
+    "static/js/2.41d1d505.chunk.js",
+    "static/js/main.3aee0035.chunk.js"
+  ]
+}
